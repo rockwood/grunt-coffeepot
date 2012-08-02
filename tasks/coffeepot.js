@@ -41,7 +41,7 @@ module.exports = function(grunt) {
     }
 
     // Start server.
-    grunt.log.writeln('Starting static web server on port ' + port + '.');
+    grunt.log.writeln('Starting static web server with coffee-script on port ' + port + '.');
     connect.apply(null, middleware).listen(port);
     
   });
