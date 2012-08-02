@@ -1,0 +1,22 @@
+{
+  "name": "grunt-coffeepot",
+  "version": "0.0.1",
+  "author": "Kevin Rockwood <kevin@rockwood.me>",
+  "contributors": [
+    {
+      "name": "Sean Hess",
+      "email": "seanhess@gmail.com",
+      "url": "http://seanhess.github.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rockwood/grunt-coffeepot"
+  },
+  "dependencies": {
+    "grunt": ">=0.3",
+    "coffeepot": ">= 0.0.0"
+  },
+  "main": "index.js",
+  "engines": { "node": ">= 0.4.11" }
+}
