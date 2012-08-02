@@ -3,7 +3,7 @@ A drop-in replacement for the default Grunt server. It will serve up coffeescrip
 Setup
 =======
 
-You'll need to install grunt-coffee first:
+You'll need to install grunt-coffeecup first:
 
     npm install grunt-coffeepot
 
@@ -22,9 +22,7 @@ Then add some configuration for the plugin like so:
       ...
     });
 
-defaults:
-  port: 8000
-  base: grunt.js directory
+`port` defaults to `8000` and `base` defaults to the grunt.js directory
 
 To create a continuously running server use:
     
