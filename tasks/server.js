@@ -32,6 +32,11 @@ module.exports = function(grunt) {
       connect.static(base),
       connect.directory(base)
     ];
+    var auth = grunt.config('coffeepot.auth');
+
+    if(auth){
+      middleware.unshift(connect.basicAuth(auth.user, auth.password));
+    }
 
     // If --debug was specified, enable logging.
     if (grunt.option('debug')) {

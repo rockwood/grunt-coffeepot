@@ -1,7 +1,7 @@
 {
   "name": "grunt-coffeepot",
   "description":"A drop-in replacement for the default Grunt server. It dynamically serves coffee files as js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Kevin Rockwood <kevin@rockwood.me>",
   "contributors": [
     {
