@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/rockwood/grunt-coffeepot.png)](http://travis-ci.org/rockwood/grunt-coffeepot)
 A drop-in replacement for the default Grunt server. It will serve up coffeescript files as javascript. So if you have a file in app/init.coffee, hitting http://localhost:8000/app/init.js will serve up the compiled version of that file.
 
 Setup
