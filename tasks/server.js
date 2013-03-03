@@ -24,7 +24,7 @@ module.exports = function(grunt) {
     // Get values from config, or use defaults.
 
     var port = grunt.config('coffeepot.port') || 8000;
-    
+
     var base = path.resolve(grunt.config('coffeepot.base') || '.');
 
     var middleware = [
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
     // Start server.
     grunt.log.writeln('Starting static web server with coffee-script on port ' + port + '.');
     connect.apply(null, middleware).listen(port);
-    
+
   });
 
 };
