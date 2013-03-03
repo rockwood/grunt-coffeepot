@@ -3,19 +3,19 @@ A drop-in replacement for the default Grunt server. It will serve up coffeescrip
 Setup
 =======
 
-You'll need to install grunt-coffeecup first:
+You'll need to install grunt-coffeepot first:
 
     npm install grunt-coffeepot
 
 Then modify your grunt.js file by adding the following line:
 
-    grunt.loadNpmTasks('grunt-coffeecup');
+    grunt.loadNpmTasks('grunt-coffeepot');
 
 Then add some configuration for the plugin like so:
 
     grunt.initConfig({
       ...
-      coffeecup: {
+      coffeepot: {
         port: 8000
         base: ./app
       },
@@ -25,6 +25,6 @@ Then add some configuration for the plugin like so:
 `port` defaults to `8000` and `base` defaults to the grunt.js directory
 
 To create a continuously running server use:
-    
-    grunt.registerTask('serve', 'coffeecup watch');
+
+    grunt.registerTask('serve', 'coffeepot watch');
 
